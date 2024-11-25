@@ -45,7 +45,11 @@ You're reading it!
 	1.5 Prosledjivanjem ovih parametara funkciji undistort() dobijamo kao njenu povratnu vrednost ispravljenu sliku
 	1.6 Sliku mozemo prikazati pomocu funkcije imshow()
 	
-	
+![Undistored](https://github.com/user-attachments/assets/e4a825fe-65e7-4380-894d-1a650d398e28) 
+![Distored](https://github.com/user-attachments/assets/509db27e-00d7-46c4-ad75-122ad0102c36)
+
+
+
 
 
 
