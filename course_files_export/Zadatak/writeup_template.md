@@ -55,7 +55,14 @@ You're reading it!
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
-TODO: Add your text here!!!
+	2.1 Odlucila sam se za kombinaciju Canny algoritma i LAB color space-a, kako bih uspesno detektovala i bele i zute linije na putu
+	2.2 Canny algoritmu prosledjujemo sliku u sivoj nijansi, jer cemo tako lakse detektovati promenu inteziteta piksela
+	2.3 Zatim originalnu sliku konvertujemo i u LAB color space i izdvajamo B kanal koji predstavlja nijasnu zuto-plava i postavljamo thresholde prilagodjene 	nijansama zute boje
+	2.4 Zatim na cisto crnoj slici isrtavamo bele piksele koji zadovoljavaju jedan od prethodna dva algoritma, cime dobijamo detekciju i bele i zute linije na 	putu
+
+
+![Binary_base](https://github.com/user-attachments/assets/e073391d-daf3-433b-bd48-b3b36e49732f)
+![Binary_new](https://github.com/user-attachments/assets/a5d59173-1061-417d-9c3a-282edddd6097)
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
