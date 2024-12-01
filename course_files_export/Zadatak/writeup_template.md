@@ -74,7 +74,9 @@ You're reading it!
 	3.4 Zatim funkcija cv2.warpPerspective() na osnovu matrice transformacije, bazne slike i kljucnih tacaka kreira novu sliku sa pticijom perspektivom.
 	3.5 U prilogu mozemo videti binarnu sliku u originalnoj perspektivi (sa redukovanim pragovima obrade spram slike postavljene u prethodnom delu zadatka - smanjeni sumovi), kao i istu iz pticije perspektive.
 ![binary_persp](https://github.com/user-attachments/assets/afe68e76-dab9-4a95-bb0e-0d7885c0d0da)
-![Perspective_tran](https://github.com/user-attachments/assets/ab99ecd5-91db-41e2-8b5f-8fefa3a940a6)
+![Perspective_tran1](https://github.com/user-attachments/assets/06c4855d-360c-4785-9890-2133959f1140)
+
+
 
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
