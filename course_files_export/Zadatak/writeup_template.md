@@ -157,11 +157,11 @@ You're reading it!
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-
+	Video je postavljen na lokaciji "/video_output.avi".
 
 ### Discussion
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-
+	Potrebno je unapredjenje ovog projekta za testne videa sa vise sumova. Kada razmisljam o eventualnim promenama, mozda bi ipak Sobel algoritam za detekciju ivica bio bolji za runtime detekciju, s obzirom da je brzi algoritam. Medjutim sa druge strane Canny je precizniji, i morala bi se pronaci prava mera. 
 
